@@ -3,8 +3,6 @@ import torch.nn as nn
 from functools import wraps
 
 
-
-
 def timer(fn):
     input_count = 1
     @wraps(fn)
